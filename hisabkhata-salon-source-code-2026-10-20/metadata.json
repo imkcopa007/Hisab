@@ -1,0 +1,6 @@
+{
+  "name": "HIsabkhata — Noble Reflxion Lifestyle Salon",
+  "description": "Professional salon accounting, daily closing, employee targets, and financial management for Noble Reflxion Lifestyle Salon.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

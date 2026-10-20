@@ -1,0 +1,278 @@
+{
+  "managers": [
+    {
+      "id": "MGR-001",
+      "loginIdentifier": "01522111121",
+      "fullName": "Md. Imran (Salon Manager)",
+      "role": "manager",
+      "passwordSalt": "ab067d645458c7f1ea10935cb5deffcc",
+      "passwordHash": "0769067c657ff503af76e41d3e0b1872d4658df5303cd27f01232b95d27ae46dee132e886d8236e7a4c2780b91f706fe21cb733101031a0fbf6048f5392658ad",
+      "mustChangePassword": false,
+      "createdAt": "2026-10-20T07:04:23.173Z",
+      "lastLoginAt": "2026-10-20T08:22:48.761Z",
+      "updatedAt": "2026-10-20T08:23:00.992Z"
+    }
+  ],
+  "employees": [
+    {
+      "id": "EMP-001",
+      "name": "Sazzad Hossain",
+      "role": "Senior Hair Stylist (সিনিয়র হেয়ার স্টাইলিস্ট)",
+      "phone": "01711223344",
+      "serviceCategory": "Haircut & Styling, Hair Treatment",
+      "joiningDate": "2024-01-15",
+      "notes": "Master stylist, expert in fade cuts and keratin treatment.",
+      "isActive": true,
+      "createdAt": "2026-10-20T07:04:23.102Z",
+      "updatedAt": "2026-10-20T07:04:23.102Z"
+    },
+    {
+      "id": "EMP-002",
+      "name": "Tanvir Ahmed",
+      "role": "Hair Colorist & Specialist (হেয়ার কালারিস্ট)",
+      "phone": "01822334455",
+      "serviceCategory": "Hair Color, Highlights & Spa",
+      "joiningDate": "2024-03-01",
+      "notes": "Certified color specialist.",
+      "isActive": true,
+      "createdAt": "2026-10-20T07:04:23.102Z",
+      "updatedAt": "2026-10-20T07:04:23.102Z"
+    },
+    {
+      "id": "EMP-003",
+      "name": "Kamrul Hasan",
+      "role": "Skincare & Facial Expert (স্কিন কেয়ার এক্সপার্ট)",
+      "phone": "01933445566",
+      "serviceCategory": "Facial, Cleanup & Grooming",
+      "joiningDate": "2024-05-10",
+      "notes": "Hydra facial and organic skincare specialist.",
+      "isActive": true,
+      "createdAt": "2026-10-20T07:04:23.102Z",
+      "updatedAt": "2026-10-20T07:04:23.102Z"
+    },
+    {
+      "id": "EMP-004",
+      "name": "Rakibul Islam",
+      "role": "Junior Stylist & Groomer (জুনিয়র স্টাইলিস্ট)",
+      "phone": "01644556677",
+      "serviceCategory": "Haircut, Shave & Head Massage",
+      "joiningDate": "2024-08-01",
+      "notes": "Handles basic styling and head massage.",
+      "isActive": true,
+      "createdAt": "2026-10-20T07:04:23.102Z",
+      "updatedAt": "2026-10-20T07:04:23.102Z"
+    }
+  ],
+  "incomeTransactions": [
+    {
+      "employeeId": "EMP-001",
+      "category": "Haircut & Styling (চুল কাটা ও স্টাইলিং)",
+      "amount": 3500,
+      "description": "Fade cut & styling",
+      "paymentMethod": "Cash",
+      "id": "inc_2026-10-19_1792479878540_0",
+      "businessDate": "2026-10-19",
+      "createdBy": "MGR-001",
+      "createdAt": "2026-10-20T07:04:38.540Z",
+      "updatedAt": "2026-10-20T07:04:38.540Z"
+    },
+    {
+      "employeeId": "EMP-002",
+      "category": "Hair Color & Highlights (হেয়ার কালার)",
+      "amount": 5200,
+      "description": "Global hair color",
+      "paymentMethod": "bKash",
+      "id": "inc_2026-10-19_1792479878540_1",
+      "businessDate": "2026-10-19",
+      "createdBy": "MGR-001",
+      "createdAt": "2026-10-20T07:04:38.540Z",
+      "updatedAt": "2026-10-20T07:04:38.540Z"
+    },
+    {
+      "employeeId": null,
+      "category": "Product Sales (প্রোডাক্ট বিক্রয়)",
+      "amount": 1800,
+      "description": "Moroccan Argan Hair Oil retail",
+      "paymentMethod": "Card",
+      "id": "inc_2026-10-19_1792479878540_2",
+      "businessDate": "2026-10-19",
+      "createdBy": "MGR-001",
+      "createdAt": "2026-10-20T07:04:38.540Z",
+      "updatedAt": "2026-10-20T07:04:38.540Z"
+    }
+  ],
+  "expenseTransactions": [
+    {
+      "employeeId": "EMP-001",
+      "category": "Employee Daily Allowance / Snack (স্টাফ খরচ/টিফিন)",
+      "amount": 300,
+      "description": "Staff lunch & evening tea",
+      "paymentMethod": "Cash",
+      "id": "exp_2026-10-19_1792479878540_0",
+      "businessDate": "2026-10-19",
+      "createdBy": "MGR-001",
+      "createdAt": "2026-10-20T07:04:38.540Z",
+      "updatedAt": "2026-10-20T07:04:38.540Z"
+    },
+    {
+      "employeeId": null,
+      "category": "Laundry & Cleaning Supplies (লন্ড্রি ও পরিষ্কার পরিচ্ছন্নতা)",
+      "amount": 700,
+      "description": "Towel laundry & disinfectant",
+      "paymentMethod": "Cash",
+      "id": "exp_2026-10-19_1792479878540_1",
+      "businessDate": "2026-10-19",
+      "createdBy": "MGR-001",
+      "createdAt": "2026-10-20T07:04:38.540Z",
+      "updatedAt": "2026-10-20T07:04:38.540Z"
+    }
+  ],
+  "dailyClosings": [
+    {
+      "id": "closing_2026-10-19",
+      "businessDate": "2026-10-19",
+      "totalEmployeeIncome": 8700,
+      "totalSalonLevelIncome": 1800,
+      "totalIncome": 10500,
+      "totalEmployeeExpenses": 300,
+      "totalGeneralExpenses": 700,
+      "totalExpenses": 1000,
+      "netBalance": 9500,
+      "notes": "Smooth operational day. High satisfaction on hair color service.",
+      "isClosed": true,
+      "submittedBy": "MGR-001",
+      "submittedAt": "2026-10-20T07:04:38.540Z"
+    }
+  ],
+  "monthlyTargets": [
+    {
+      "id": "tgt_EMP-001_2026-10",
+      "employeeId": "EMP-001",
+      "monthKey": "2026-10",
+      "targetAmount": 50000,
+      "notes": "October festival target",
+      "createdAt": "2026-10-20T07:04:52.482Z",
+      "updatedAt": "2026-10-20T07:04:52.482Z",
+      "createdBy": "MGR-001"
+    },
+    {
+      "id": "tgt_EMP-002_2026-10",
+      "employeeId": "EMP-002",
+      "monthKey": "2026-10",
+      "targetAmount": 5000,
+      "notes": "Special color target",
+      "createdAt": "2026-10-20T07:04:52.495Z",
+      "updatedAt": "2026-10-20T07:04:52.495Z",
+      "createdBy": "MGR-001"
+    }
+  ],
+  "auditLogs": [
+    {
+      "id": "aud_1792484580992_m3qf3",
+      "timestamp": "2026-10-20T08:23:00.992Z",
+      "entityType": "manager",
+      "entityId": "MGR-001",
+      "action": "update",
+      "details": "Manager updated account password.",
+      "actorId": "MGR-001"
+    },
+    {
+      "id": "aud_1792482973179_0vebf",
+      "timestamp": "2026-10-20T07:56:13.179Z",
+      "entityType": "employee",
+      "entityId": "EMP-005",
+      "action": "delete",
+      "details": "Removed employee Arif Hossain (EMP-005) from active staff roster",
+      "actorId": "MGR-001"
+    },
+    {
+      "id": "aud_1792482963928_ch2sj",
+      "timestamp": "2026-10-20T07:56:03.928Z",
+      "entityType": "employee",
+      "entityId": "EMP-006",
+      "action": "delete",
+      "details": "Removed employee Test Stylist (EMP-006) from active staff roster",
+      "actorId": "MGR-001"
+    },
+    {
+      "id": "aud_1792482947352_kmdqo",
+      "timestamp": "2026-10-20T07:55:47.352Z",
+      "entityType": "employee",
+      "entityId": "EMP-006",
+      "action": "create",
+      "details": "Added new employee Test Stylist (Stylist)",
+      "actorId": "MGR-001"
+    },
+    {
+      "id": "aud_1792482941464_owitq",
+      "timestamp": "2026-10-20T07:55:41.464Z",
+      "entityType": "employee",
+      "entityId": "EMP-005",
+      "action": "create",
+      "details": "Added new employee Arif Hossain (জুনিয়র হেয়ার স্টাইলিস্ট)",
+      "actorId": "MGR-001"
+    },
+    {
+      "id": "aud_1792479892495_fnab8",
+      "timestamp": "2026-10-20T07:04:52.495Z",
+      "entityType": "target",
+      "entityId": "tgt_EMP-002_2026-10",
+      "action": "create",
+      "details": "Set target for employee EMP-002 for month 2026-10 to ৳5,000",
+      "actorId": "MGR-001"
+    },
+    {
+      "id": "aud_1792479892482_4b6sh",
+      "timestamp": "2026-10-20T07:04:52.482Z",
+      "entityType": "target",
+      "entityId": "tgt_EMP-001_2026-10",
+      "action": "create",
+      "details": "Set target for employee EMP-001 for month 2026-10 to ৳50,000",
+      "actorId": "MGR-001"
+    },
+    {
+      "id": "aud_1792479878545_7a7wu",
+      "timestamp": "2026-10-20T07:04:38.545Z",
+      "entityType": "daily_closing",
+      "entityId": "closing_2026-10-19",
+      "action": "close_day",
+      "details": "Closed accounts for 2026-10-19. Income: ৳10,500, Expenses: ৳1,000, Net: ৳9,500",
+      "actorId": "MGR-001"
+    },
+    {
+      "id": "aud_1792479863174_368bz",
+      "timestamp": "2026-10-20T07:04:23.174Z",
+      "entityType": "manager",
+      "entityId": "MGR-001",
+      "action": "create",
+      "details": "Initial bootstrap manager account provisioned securely with temporary credential.",
+      "actorId": "system"
+    }
+  ],
+  "settings": {
+    "salonName": "Noble Reflxion Lifestyle Salon",
+    "appName": "HIsabkhata",
+    "timezone": "Asia/Dhaka",
+    "currency": "BDT",
+    "incomeCategories": [
+      "Haircut & Styling (চুল কাটা ও স্টাইলিং)",
+      "Facial & Skincare (ফেসিয়াল ও ত্বক পরিচর্যা)",
+      "Hair Treatment & Spa (হেয়ার ট্রিটমেন্ট ও স্পা)",
+      "Beard Grooming & Shave (দাড়ি ও শেভ)",
+      "Hair Color & Highlights (হেয়ার কালার)",
+      "Bridal & Groom Packages (গ্রুম ও ব্রাইডাল প্যাকেজ)",
+      "Product Sales (প্রোডাক্ট বিক্রয়)",
+      "Other Salon Services (অন্যান্য সেবা)"
+    ],
+    "expenseCategories": [
+      "Product & Raw Material Purchases (পণ্য ও প্রসাধন সামগ্রী)",
+      "Employee Daily Allowance / Snack (স্টাফ খরচ/টিফিন)",
+      "Utilities (Electricity, Water, Internet)",
+      "Salon Rent & Maintenance (দোকান ভাড়া ও মেরামত)",
+      "Laundry & Cleaning Supplies (লন্ড্রি ও পরিষ্কার পরিচ্ছন্নতা)",
+      "Equipment & Tool Repairs (যন্ত্রপাতি মেরামত)",
+      "Marketing & Promotion (প্রচারণা)",
+      "Other Operating Expenses (বিবিধ খরচ)"
+    ]
+  }
+}
